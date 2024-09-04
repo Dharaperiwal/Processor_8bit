@@ -1,0 +1,161 @@
+$date
+	Tue Aug 20 23:01:43 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Processor_Testbench $end
+$var wire 8 ! ALU_Result [7:0] $end
+$var reg 4 " Opcode [3:0] $end
+$var reg 3 # Rd [2:0] $end
+$var reg 3 $ Rs [2:0] $end
+$var reg 3 % Rt [2:0] $end
+$var reg 1 & clk $end
+$scope module uut $end
+$var wire 8 ' ALU_Result [7:0] $end
+$var wire 4 ( Opcode [3:0] $end
+$var wire 3 ) Rd [2:0] $end
+$var wire 3 * Rs [2:0] $end
+$var wire 3 + Rt [2:0] $end
+$var wire 1 & clk $end
+$var wire 1 , RegWrite $end
+$var wire 8 - Read_Data2 [7:0] $end
+$var wire 8 . Read_Data1 [7:0] $end
+$var wire 3 / ALU_Sel [2:0] $end
+$var wire 8 0 ALU_Out [7:0] $end
+$scope module alu $end
+$var wire 8 1 B [7:0] $end
+$var wire 3 2 ALU_Sel [2:0] $end
+$var wire 8 3 A [7:0] $end
+$var reg 8 4 ALU_Out [7:0] $end
+$var reg 1 5 Zero $end
+$upscope $end
+$scope module control $end
+$var wire 4 6 Opcode [3:0] $end
+$var reg 3 7 ALU_Sel [2:0] $end
+$var reg 1 8 MemRead $end
+$var reg 1 9 MemWrite $end
+$var reg 1 , RegWrite $end
+$upscope $end
+$scope module regFile $end
+$var wire 3 : Read_Reg1 [2:0] $end
+$var wire 3 ; Read_Reg2 [2:0] $end
+$var wire 1 , RegWrite $end
+$var wire 8 < Write_Data [7:0] $end
+$var wire 3 = Write_Reg [2:0] $end
+$var wire 1 & clk $end
+$var reg 8 > Read_Data1 [7:0] $end
+$var reg 8 ? Read_Data2 [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx ?
+bx >
+b1 =
+bx <
+b10 ;
+b11 :
+09
+08
+b0 7
+b0 6
+x5
+bx 4
+bx 3
+b0 2
+bx 1
+bx 0
+b0 /
+bx .
+bx -
+1,
+b10 +
+b11 *
+b1 )
+b0 (
+bx '
+0&
+b10 %
+b11 $
+b1 #
+b0 "
+bx !
+$end
+#5
+1&
+#10
+b1 /
+b1 2
+b1 7
+0&
+b1 "
+b1 (
+b1 6
+#15
+1&
+#20
+0,
+b0 /
+b0 2
+b0 7
+0&
+b0 #
+b0 )
+b0 =
+b1 $
+b1 *
+b1 :
+b10 "
+b10 (
+b10 6
+#25
+1&
+#30
+0&
+b11 "
+b11 (
+b11 6
+#35
+1&
+#40
+0&
+b100 "
+b100 (
+b100 6
+#45
+1&
+#50
+0&
+b0 %
+b0 +
+b0 ;
+b101 "
+b101 (
+b101 6
+#55
+1&
+#60
+0&
+b110 "
+b110 (
+b110 6
+#65
+1&
+#70
+0&
+b111 "
+b111 (
+b111 6
+#75
+1&
+#80
+0&
